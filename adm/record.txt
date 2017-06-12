@@ -1,0 +1,12 @@
+1. Pengguna
+	id = a. Dokter+pegawai (level,jenis_kelamin,tahun,nomer_daftar)
+			-untuk jenis kelamin: 1. laki-laki, 2.perempuan
+	     b. Pasien (jenis_kelamin,level,tahun,nomer_daftar)
+	     	-untuk jenis kelamin: L. laki-laki, P. Perempuan
+	pass = md5+id_pengguna dibalik
+
+
+
+NB: Setelah upload jangan lupa ganti link untuk cookie
+
+	

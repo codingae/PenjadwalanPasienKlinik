@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteRule index.html index.php
+
+RewriteRule ^dokter-dashboard index.php?klinik=dokter-dashboard
+RewriteRule ^artikel index.php?klinik=artikel
+RewriteRule ^postingan index.php?klinik=postingan
+RewriteRule ^pos index.php?klinik=pos
+RewriteRule ^master-gaji index.php?klinik=master-gaji
+RewriteRule ^gaji-pegawai index.php?klinik=gaji-pegawai
+RewriteRule ^gaji-dokter index.php?klinik=gaji-dokter
+RewriteRule ^konsultasi-sudah index.php?klinik=konsultasi-sudah
+RewriteRule ^konsultasi-belum index.php?klinik=konsultasi-belum
+RewriteRule ^konsultasi-jawab index.php?klinik=konsultasi-jawab
+RewriteRule ^keperluan-lain index.php?klinik=keperluan-lain
+RewriteRule ^laporan index.php?klinik=laporan
+
+RewriteRule ^daftar-dashboard index.php?klinik=daftar-dashboard
+RewriteRule ^data-pengguna index.php?klinik=data-pengguna
+RewriteRule ^data-layanan index.php?klinik=data-layanan
+RewriteRule ^penyakit index.php?klinik=penyakit
+RewriteRule ^profil index.php?klinik=profil
+RewriteRule ^layanan-belum index.php?klinik=layanan-belum
+RewriteRule ^layanan-sudah index.php?klinik=layanan-sudah
+RewriteRule ^rekap-uang-masuk index.php?klinik=rekap-uang-masuk
+RewriteRule ^rekam-medis index.php?klinik=rekam-medis
+
+RewriteRule ^obat-dashboard index.php?klinik=obat-dashboard
+RewriteRule ^obat-keluar index.php?klinik=obat-keluar
+RewriteRule ^obat-masuk index.php?klinik=obat-masuk
+RewriteRule ^record-obat-masuk index.php?klinik=record-obat-masuk
+RewriteRule ^record-obat-keluar index.php?klinik=record-obat-keluar
+RewriteRule ^obat index.php?klinik=obat
+
+RewriteRule ^pasien-dashboard index.php?klinik=pasien-dashboard
+RewriteRule ^periksa index.php?klinik=periksa
+RewriteRule ^rm index.php?klinik=rm
+RewriteRule ^rm-detail index.php?klinik=rm-detail
+RewriteRule ^artikel index.php?klinik=artikel
+RewriteRule ^postingan index.php?klinik=postingan
+RewriteRule ^record-konsultasi index.php?klinik=record-konsultasi
+RewriteRule ^konsultasi index.php?klinik=konsultasi
